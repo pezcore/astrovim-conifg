@@ -4,10 +4,6 @@ return {
   -- example of imporing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
-  { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.colorscheme.nightfox"},
-  { import = "astrocommunity.colorscheme.kanagawa"},
-  { import = "astrocommunity.colorscheme.gruvbox"},
-  { import = "astrocommunity.colorscheme.everforest"},
-  { import = "astrocommunity.colorscheme.oxocarbon"},
+  { import = "astrocommunity.colorscheme.catppuccin"},
+  { "catppuccin", lazy = false },
 }
