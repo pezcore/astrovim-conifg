@@ -6,4 +6,7 @@ return {
 
   { import = "astrocommunity.colorscheme.catppuccin"},
   { "catppuccin", lazy = false },
+
+  { import = "astrocommunity.pack.rust"},
+
 }
