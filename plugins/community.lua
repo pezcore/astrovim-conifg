@@ -8,5 +8,6 @@ return {
   { "catppuccin", lazy = false },
 
   { import = "astrocommunity.pack.rust"},
+  { import = "astrocommunity.pack.python"},
 
 }
