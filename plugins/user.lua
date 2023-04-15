@@ -23,6 +23,12 @@ return {
   { "nyoom-engineering/oxocarbon.nvim", lazy = false },
   { "rose-pine/neovim", name = "rose-pine", lazy = false, opts = {} },
   { "folke/tokyonight.nvim", lazy = false },
+  { "marko-cerovac/material.nvim", lazy = false },
+  {
+    "metalelf0/jellybeans-nvim",
+    lazy = false,
+    dependencies = "rktjmp/lush.nvim",
+  },
   {
     "EdenEast/nightfox.nvim",
     lazy = false,
