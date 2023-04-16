@@ -52,6 +52,17 @@ return {
     servers = {
       -- "pyright"
     },
+    config = {
+      rust_analyzer = {
+        settings = {
+          ["rust-analyzer"] = {
+            cargo = {
+              allFeatures = true,
+            }
+          }
+        }
+      }
+    }
   },
 
   -- Configure require("lazy").setup() options
