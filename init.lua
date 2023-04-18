@@ -93,6 +93,6 @@ return {
     --   },
     -- }
     vim.api.nvim_set_hl(0, "LeapBackdrop", { link="Comment"})
-    vim.api.nvim_set_hl(0, "LeapLabelPrimary", { fg="#ff32c9"})
+    vim.api.nvim_set_hl(0, "LeapLabelPrimary", { fg="#ff5ace"})
   end,
 }
