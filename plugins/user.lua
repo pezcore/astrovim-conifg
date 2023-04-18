@@ -13,6 +13,7 @@ return {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
     opts = {},
+    event = "User AstroFile",
   },
 
   -- Colorschemes, non lazy loaded so that they show up in the theme picker
