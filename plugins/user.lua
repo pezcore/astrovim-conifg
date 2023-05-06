@@ -56,6 +56,15 @@ return {
     },
   },
   {
+    'Mofiqul/vscode.nvim',
+    lazy = false,
+    opts = {
+      color_overrides = {
+        vscLineNumber = "grey",
+      },
+    }
+  },
+  {
     "goolord/alpha-nvim",
      config = function ()
        local alpha = require'alpha'
